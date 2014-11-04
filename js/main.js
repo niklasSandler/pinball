@@ -3,7 +3,7 @@
 	var canvas;
 	var context;
 	var numShapes = 9;
-
+ 
 	var sound1;
 	var sound2;
 	var sound3;
@@ -33,7 +33,7 @@
 
  		var generalProbability = 0.001;
 
-
+ 		// Play session sound files
 
  		sounds[0] = {path:"CreatureFromTheBlackLagoon",  file:"play1.mp3", x: 9, y: 8, z: 0, probability: generalProbability, numberOfSounds: 1};
 		sounds[1] = {path:"AttackFromMars",  file:"play1.mp3", x: 1, y: 0, z: 0, probability: generalProbability, numberOfSounds: 1};
